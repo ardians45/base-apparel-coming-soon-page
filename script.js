@@ -22,7 +22,6 @@ form.addEventListener("submit", (event) => {
     errorMessage.textContent = "Please provide a valid email";
     errorMessage.style.color = "red";
     input.style.borderColor = "red";
-    emailIcon.style.display = "block";
     iconError.style.visibility = "visible";
     return;
   } else {
